@@ -3,7 +3,8 @@ package com.emp;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-public class SwitchLanguage extends Login {
+
+public class SwitchLanguage extends TestSetup {
 
 	public static void englishSelected()
 	{
