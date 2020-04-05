@@ -6,8 +6,10 @@ import org.openqa.selenium.WebElement;
 
 public class SwitchLanguage extends TestSetup {
 
+	
 	public static void englishSelected()
 	{
+		//driver.get("")
 		WebElement drop = driver.findElement(By.xpath("//a[@class='dropdown-toggle ng-binding']"));
 		drop.click();
 		

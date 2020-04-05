@@ -9,12 +9,7 @@ public class LanguageTest extends SwitchLanguage {
 	@Test
 	public static void lTest()
 	{
-		SwitchLanguage.setDriverPath();
-		SwitchLanguage.driver = new ChromeDriver();
-		SwitchLanguage.wait = new WebDriverWait(driver, 10);
-		SwitchLanguage.openURL();
-		SwitchLanguage.credentials("QA_traininguser25","Empirix!");
-		SwitchLanguage.submitForm();
+		
 		SwitchLanguage.japaneseSelected();
 		
 	}

@@ -3,9 +3,11 @@
 <suite name="Suite">
 	<test name="LoginTest">
 	<classes>
-	<!-- <class name="com.emp.LoginTest"/> -->
+	<class name="com.emp.LoginTest"/> 
 	
-	<class name="com.emp.LanguageTest"/>
+	<class name="com.emp.TabsTest"/>
+	
+	<!-- <class name="com.emp.LanguageTest"/> -->
 	
 	</classes>
 	</test>

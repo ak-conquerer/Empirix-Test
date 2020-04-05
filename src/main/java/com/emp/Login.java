@@ -10,12 +10,12 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class Login extends TestSetup {
 	
 	
-	public static void openURL()
+	/*public static void openURL()
 	{
 		System.out.println("Opening Browser and navigating to page");
 		driver.get("https://services.empirix.com");
 		wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.xpath("//input[@type='submit']"))));
-	}
+	}*/
 	
 	public static void credentials(String a, String b)
 	{
